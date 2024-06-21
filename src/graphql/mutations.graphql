@@ -1,0 +1,19 @@
+mutation SignInUser($data: SignInInput!) {
+  signInUser(data: $data) {
+    name
+  }
+}
+
+mutation SignUpUser($data: SignUpInput!) {
+  signUpUser(data: $data) {
+    name
+  }
+}
+
+mutation logOutUser {
+  logOutUser
+}
+
+mutation UpdateUserToAccessProbStatement($email: String!) {
+  updateUserToAccessProbStatement(email: $email)
+}

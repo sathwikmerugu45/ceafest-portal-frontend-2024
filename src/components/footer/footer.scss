@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.custom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px;
+  padding-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.contact-headingh1 {
+  font-size: 40px;
+
+  &.tab {
+    font-size: 30px;
+  }
+
+  &.mobile {
+    font-size: 22px;
+  }
+}
+
+.custom-footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.custom-line {
+  width: 10%;
+  border: 2px solid #ccc;
+  margin: 4px auto;
+  color: rgb(0, 0, 0);
+}
+
+.events-team {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .event-headingh2 {
+    font-size: 35px;
+
+    &.tab {
+      font-size: 25px;
+    }
+
+    &.mobile {
+      font-size: 19px;
+    }
+  }
+
+  .events-cores {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &.tab {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &.mobile {
+      flex-direction: column;
+    }
+
+    .core-details {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-bottom: 10px;
+
+      &.tab {
+        border-bottom: 2px solid #fff;
+        margin: 10px;
+      }
+      &.mobile {
+        border-bottom: 2px solid #fff;
+        margin: 5px;
+      }
+
+      .name {
+        font-size: 20px;
+        font-weight: 600;
+        &.tab{
+          font-size: 17px;
+        }
+        &.mobile{
+          font-size: 14px;
+        }
+      }
+
+      .social-media {
+        padding: 4px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+
+        .logo {
+          width: auto;
+          display: flex;
+          align-items: center;
+
+          .logoimg {
+            width: 20px;
+            &.tab{
+              width: 17px;
+            }
+            &.mobile{
+              width: 14px;
+            }
+          }
+        }
+        .detail {
+          .custom-email,.custom-linkedin,.custom-whatsapp{
+            font-size: 20px;
+            &.tab{
+              font-size: 17px;
+            }
+            &.mobile{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.social-media-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 10px;
+  &.tab{
+    margin: 8px;
+    gap: 25px;
+  }
+  &.mobile{
+    margin: 5px;
+    gap: 15px;
+  }
+  .logoimg {
+    height: 50px;
+    &.tab{
+      height: 45px;
+    }
+    &.mobile{
+      height: 30px;
+    }
+  }
+}
+
+.love-ceawebops {
+  color: #fff;
+  font-size: 20px;
+  &.tab{
+    font-size: 16px;
+  }
+  &.mobile{
+    font-size: 12px;
+  }
+}

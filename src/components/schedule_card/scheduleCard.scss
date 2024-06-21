@@ -1,0 +1,90 @@
+.scheduleCard-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hovering-container{
+    margin-bottom: 40px;
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    width: 85%;
+    transition: 0.5s ease-out;
+    .scheduledCard-part1 {
+      .scheduledCard-timing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        // max-width: 140px;
+        font-size: 16px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        color: #fff;
+      }
+    }
+  
+    .scheduledCard-part2 {
+      margin-left: 10%;
+      .scheduledCard-image {
+        width: 200px;
+        height: auto;
+        border-radius: 30px;
+      }
+    }
+  
+    .scheduledCard-part3 {
+      margin-left: 14%;
+  
+      .scheduledCard-eventName {
+        color: yellow;
+        margin-bottom: 18px;
+        font-size: 30px;
+      }
+  
+  
+      .scheduledCard-eventVenue {
+        color: #fff;
+        margin-left: 25px;
+        margin-bottom: 14px;
+        font-size: 18px;
+      }
+  
+      .scheduledCard-eventCategory {
+        margin-left: 25px;
+        margin-bottom: 14px;
+        color: #fff;
+        font-size: 18px;
+      }
+  
+      .scheduledCard-cordName {
+        margin-left: 25px;
+        margin-bottom: 14px;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.8;
+      }
+  
+      .scheduledCard-cordNumber {
+        margin-left: 25px;
+        margin-bottom: 14px;
+        color: #fff;
+        font-size: 15px;
+        opacity: 0.8;
+      }
+    }
+  }
+  
+
+}
+
+.hovering-container:hover{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(33 67 78);
+  z-index: 2;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  transform: translateY(-10px) scale(1.05);
+}

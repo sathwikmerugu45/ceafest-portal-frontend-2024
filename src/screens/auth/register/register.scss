@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.register-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // background:linear-gradient(to right ,rgb(49, 87, 44), rgb(112, 144, 65));
+    // background-image: url("../../../assets//images/civil.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    z-index: 10;
+
+}
+
+.register-heading h1 {
+    font-size: 36px;
+}
+
+.register-wrapper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .register-container {
+        background: rgba(255, 255, 255, 0.1);
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.2);
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        -webkit-backdrop-filter: blur(10px);
+        // backdrop-filter: blur(25px);
+        backdrop-filter: blur(10px);
+    }
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 57%;
+    width: 70%;
+}
+
+.userName,
+.emaiL,
+.mobiLe,
+.PassWord,
+.Confirm-pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.register-form img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+// background-color: rgb(76, 115, 45);
+.register-button button {
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(76, 115, 45);
+    color: black;
+    background-color: rgb(76, 115, 45);
+}
+
+.register-form input {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px 10px 10px 45px;
+    border-radius: 5px;
+    width: 90%;
+    background: rgb(204, 204, 204);
+}
+
+.PassWord .eye,
+.Confirm-pass .eye {
+    height: 25px;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.register-form .icon {
+    position: absolute;
+    z-index: 4;
+    left: 3%;
+}

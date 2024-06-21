@@ -1,0 +1,156 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+  // width: 100%;
+  padding-top: 160px;
+  &.mobile{
+    padding-top: 75px;
+  }
+}
+
+.user-profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.9);
+  background: rgb(209, 209, 209);
+  width: 50%;
+  &.tab{
+    width: 70%;
+  }
+  &.mobile{
+    width: 85%;
+  }
+  .profile-heading{
+    font-size: 50px;
+    font-weight: 700;
+    &.tab{
+      font-size: 40px;
+    }
+    &.mobile{
+      font-size: 40px;
+    }
+  }
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  text-align: center;
+  width: 100%;
+}
+
+.userinfop,.user-id {
+  text-align: left;
+  padding: 15px;
+  width: 100%;
+  font-size: 25px;
+  transition: scale 0.2s ease-in-out;
+  border-radius: 5px;
+  &.tab{
+    font-size: 20px;
+  }
+  &.mobile{
+    font-size: 17px;
+    padding: 7px;
+  }
+
+}
+
+.user-info p:hover {
+  &.laptop{
+    scale: 1.05;
+    background: linear-gradient(90deg, #05fff5, #46a382);
+  }
+}
+
+.user-info-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile {
+  padding-right: 15px;
+}
+.payment-link {
+    background: white;
+  background: rgb(80, 98, 137);
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  &.tab{
+    font-size: 17px;
+  }
+  &.mobile{
+    font-size: 15px;
+    padding: 7px;
+  }
+
+}
+.editButton {
+  background: white;
+  background: rgb(80, 98, 137);
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  &.tab{
+    font-size: 17px;
+  }
+  &.mobile{
+    font-size: 15px;
+    padding: 7px;
+  }
+}
+
+.disclaimer{
+  padding-top: 20px;
+  color: #fff;
+  width: 50%;
+  font-size: 20px;
+  &.tab{
+    font-size: 17px;
+    width: 70%;
+  }
+  &.mobile{
+    width: 85%;
+    font-size: 15px;
+  }
+}
+
+.logout {
+  background: white;
+  background: rgb(45, 72, 131);
+  padding: 15px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  &.tab{
+    font-size: 16px;
+  }
+  &.mobile{
+    font-size: 14px;
+    padding: 10px;
+  }
+}

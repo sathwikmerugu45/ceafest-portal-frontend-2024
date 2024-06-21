@@ -1,0 +1,39 @@
+query GetMe {
+  getMe {
+    id
+    CEAFESTID
+    name
+    email
+    mobile
+    gender
+    isIITM
+    hostel
+    organization
+    type
+    collegeAddress
+    emailVerified
+    country
+    role
+    payment
+  }
+}
+
+query GetUsers {
+  getUsers {
+    id
+    CEAFESTID
+    name
+    email
+    mobile
+    gender
+    isIITM
+    hostel
+    organization
+    type
+    collegeAddress
+    emailVerified
+    payment
+    country
+    role
+  }
+}

@@ -1,0 +1,51 @@
+.schdelePage{
+    &.mobile{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    &.mobile{
+        padding-top: 50px;
+    }
+    font-family: 'Jura',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.schedule-heading{
+    display: flex;
+    font-size: 100px;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 10%;
+    color: #fff;
+    &.mobile{
+        font-size: 60px;
+    }
+    &.tab{
+        font-size: 80px;
+    }
+}
+
+.day-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 11%;
+    width: 100%;
+    .schedule-day{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 20px;
+        &.mobile{
+            font-size: 20px;
+        }
+        &.tab{
+            font-size: 30px;
+        }
+    }
+}

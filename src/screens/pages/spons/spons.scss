@@ -1,0 +1,89 @@
+@import "../../../styles/font.scss";
+.spons-page {
+    background: black;
+    width: 100%;
+    height: 100vh;
+
+    .spons-title {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 500;
+        padding-top: 120px;
+        font-family: "Revamped";
+        &.mobile{
+            font-size: 35px;
+        }
+    }
+
+    .sponsors {
+        margin-top: 3%;
+        // background-color: rgb(96, 96, 96);
+        &.mobile{
+            margin-bottom: 55px;
+        }
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .landt, .csi ,.khaas{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin: 45px 0px 45px 0px;
+        }
+        .khaas .image{
+            background: white;
+        }
+        .landt .image,
+        .csi .image,
+        .khaas .image, .tvasta .image {
+            height: 270px;
+            // width: 290px;
+            border-radius: 15px;
+            &.mobile{
+                height: 120px;
+            }
+            &.tab{
+                // height: 22vh;
+                height: 150px;
+            }
+        }
+
+        .csi .image{
+            height: 130px;
+            &.tab{
+                height: 90px;
+            }
+            &.mobile{
+                height: 60px;
+            }
+        }
+
+        .workshop-sponsors{
+            width: 100%;
+        }
+        .workshop-sponsors-wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            &.tab{
+                flex-direction: column;
+            }
+        }
+        .spons-name{
+            color: rgb(76, 204, 239);
+            margin: 0;
+            font-weight: 500;
+            font-size: 40px;
+            text-align: center;
+            &.mobile{
+                font-size: 30px;
+            }
+        }
+    }
+}

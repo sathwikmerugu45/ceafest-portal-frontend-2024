@@ -1,0 +1,39 @@
+.title-heading {
+    position: absolute;
+    // width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 73px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -485px 0;
+    animation: backcolor 5s linear 2s infinite alternate-reverse forwards;
+
+    &.tab{
+        font-size: 50px;
+    }
+
+    &.mobile{
+        font-size: 35px;
+        width: 100%;
+    }
+
+}
+
+.title-container{
+    width: 100%;
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+

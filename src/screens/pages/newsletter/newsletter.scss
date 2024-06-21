@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.main-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color-scheme: light dark;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    margin: 10px;
+    border: 4px solid black;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main-heading{
+    white-space: pre;
+    display: flex;
+    font-weight: 750;
+    font-size: 36px;
+    .cea{
+        color: #D6A64F;
+    }
+    .newsletter{
+        color: #78211B;
+    }
+}
+
+.cea-logo {
+    width: 70px;
+    margin-left: 20px;
+}
+
+.iitm-logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.line {
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.line1 {
+    width: 40%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.articles {
+    display: flex;
+    margin: 5px;
+}
+
+.article-text {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    a{
+        color: black;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+
+.theme-heading{
+    display: flex;
+    white-space: pre;
+    font-size: 18px;
+    .punarnava{
+        color: #5F27C6;
+        font-weight: 600;
+    }
+}
+.article1{
+    .articlephoto1 {
+        float: right;
+        width: auto;
+        height: 180px;
+        margin-right: 10px;
+    }
+}
+
+
+.hyperlink{
+    display: flex;
+    white-space: pre;
+    align-items: flex-start;
+    a{
+        color: black;
+    }
+    a:hover {
+        color: blue;
+    }
+}
+
+.research-heading {
+    display: flex;
+    white-space: pre;
+    font-weight: 700;
+    font-size: 26px;
+
+    .research {
+        color: #771F19;
+    }
+}
+
+.subheading1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 19px;
+
+    .first {
+        color: #113355;
+    }
+
+    .second {
+        color: #FFBD59;
+    }
+}
+
+.article2 {
+    .articlephoto2 {
+        width: auto;
+        height: 170px;
+        margin-left: 10px;
+    }
+    a{
+        color: black;
+    }
+    a:hover {
+        color: blue;
+    }
+    .text{
+        display: inline;
+        align-items: center;
+    }
+}
+
+.subheading2 {
+    display: flex;
+    font-weight: 700;
+    white-space: pre;
+    font-size: 26px;
+
+    .fireside {
+        color: #DA5E5E;
+    }
+}
+
+.article3 {
+    .text {
+        .anchor3 {
+            display: flex;
+            white-space: pre;
+            align-items: flex-start;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    }
+
+    .articlephoto3 {
+        width: 320px;
+        margin-right: 10px;
+        height: 200px;
+    }
+}
+
+.subheading3 {
+    color: #00BF63;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.article4 {
+
+    .articlephoto4 {
+        margin-left: 10px;
+        height: 180px;
+        width: auto;
+    }
+}
+
+.footer1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    .part1 {
+        display: flex;
+        flex-direction: column;
+        .part1-info {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .box {
+            height: 100px;
+            width: 90%;
+            background-color: #D5B7B4;
+            padding: 5px;
+            margin: 10px;
+            margin-top: 2px;
+            border-radius: 4px;
+        }
+    }
+
+    .part2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+
+        .part2-info {
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        a {
+            color: black;
+            font-size: 22px;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    }
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    background-color: #712F2A;
+    margin-top: 10px;
+    .part21 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .email-icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part22 {
+        display: flex;
+        align-items: center;
+        a{
+            margin-right: 3px;
+        }
+    }
+}

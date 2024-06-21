@@ -1,0 +1,57 @@
+/* faq.scss */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 5px solid #50ecca;
+    border-radius: 5px;
+    padding: 15px; // Added padding for better spacing
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    transition: transform 0.7s ease;
+}
+
+.arrow.down {
+    transform: rotate(0deg);
+}
+
+.arrow.up {
+    transform: rotate(180deg);
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(149, 238, 238);
+    border-radius: 5px;
+    margin-bottom: 10px; // Added margin-bottom for better spacing
+}
+
+.faq-answer {
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: none; /* Initially hide the answer */
+    border-radius: 5px;
+}
+
+.faq-question:hover + .faq-answer, .faq-answer:hover {
+    display: block; /* Display the answer when hovering over the faq-question or the answer itself */
+    transition: transform 2s ease-in-out;
+}
+ 

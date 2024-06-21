@@ -1,0 +1,25 @@
+const hostels = [
+    'Alakananda',
+    'Bhadra',
+    'Brahmaputra',
+    'Cauvery',
+    'Ganga',
+    'Godavari',
+    'Jamuna',
+    'Krishna',
+    'Mahanadhi',
+    'Mandakini A',
+    'Mandakini B',
+    'Narmada',
+    'Pampa',
+    'Saraswathi',
+    'Sarayu',
+    'Sharavathi',
+    'Sabarmati',
+    'Sindhu',
+    'Swarnamukhi',
+    'Tamiraparani',
+    'Tapti',
+    'Tunga'
+  ];
+  export default hostels; 

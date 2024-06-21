@@ -1,0 +1,149 @@
+.scheduleCardMobile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .mobilehovering-container {
+    margin-bottom: 40px;
+    display: flex;
+    z-index: 1;
+    width: 80%;
+    flex-direction: column;
+    border: 4px solid rgb(33 67 78);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+
+    .scheduledCardMobile-part2 {
+      .scheduledCardMobile-image {
+        &.tab {
+          width: 300px;
+          margin-bottom: 10px;
+        }
+
+        &.mobile {
+          width: 200px;
+        }
+
+        height: auto;
+        border-radius: 30px;
+      }
+    }
+
+    .scheduledCardMobile-part3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .scheduledCardMobile-timing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &.mobile {
+          font-size: 12px;
+          // max-width: 100px;
+        }
+
+        &.tab {
+          // max-width: 120px;
+          font-size: 15px;
+        }
+
+        border: 2px solid white;
+        padding: 8px;
+        border-radius: 10px;
+        color: #fff;
+      }
+
+      .scheduledCardMobile-eventName {
+        color: yellow;
+
+        &.mobile {
+          margin-bottom: 9px;
+          font-size: 22px;
+        }
+
+        &.tab {
+          margin-bottom: 11px;
+          font-size: 25px;
+        }
+      }
+
+      .scheduledCardMobile-eventVenue {
+        color: #fff;
+
+        &.mobile {
+          margin-bottom: 9px;
+          font-size: 15px;
+        }
+
+        &.tab {
+          margin-bottom: 11px;
+          font-size: 18px;
+        }
+      }
+
+      .scheduledCardMobile-eventCategory {
+        margin-bottom: 14px;
+        color: #fff;
+
+        &.mobile {
+          margin-bottom: 9px;
+          font-size: 15px;
+        }
+
+        &.tab {
+          margin-bottom: 11px;
+          font-size: 18px;
+        }
+      }
+
+      .scheduledCardMobile-cordName {
+        margin-bottom: 14px;
+
+        &.mobile {
+          margin-bottom: 9px;
+          font-size: 15px;
+        }
+
+        &.tab {
+          margin-bottom: 11px;
+          font-size: 18px;
+        }
+
+        color: #fff;
+        opacity: 0.8;
+      }
+
+      .scheduledCardMobile-cordNumber {
+        color: #fff;
+
+        &.mobile {
+          margin-bottom: 9px;
+          font-size: 15px;
+        }
+
+        &.tab {
+          margin-bottom: 11px;
+          font-size: 18px;
+        }
+
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.mobilehovering-container:hover {
+  border-radius: 20px;
+  padding: 7px;
+  background-color: rgb(33 67 78);
+  z-index: 2;
+
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  transform: translateY(-10px) scale(1.02);
+}

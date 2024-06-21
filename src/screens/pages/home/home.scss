@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  .home-page{
+    width: 100vw;
+    height: 100vh;
+    .title-wrapper{
+      height: 100%;
+      
+    }
+  }
+
+  .home-page {
+    /* Other styles */
+    overflow-y: auto;
+      background-image: url('https://festceaiitm.blr1.digitaloceanspaces.com/eventPosters/cea2.png');
+    background-size: cover; /* Adjusts the background image to cover the entire element */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed;
+    // padding-bottom: 80px;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      width: 0; /* Set scrollbar width to zero */
+      height: 0; /* Set scrollbar height to zero */
+  }
+  }
+  .title-wrapper {
+    position: relative; /* Fix the title wrapper position */
+    top: 0; /* Place it at the top */
+    left: 0; /* Place it at the left */
+    width: 100%; /* Make it full width */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  .developer-wrapper{
+   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .developed-by{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    color: white;
+    width: 60%; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgb(255,255,255,0.1);
+    border-radius: 5px;
+    &.mobile{
+      width: 85%; 
+    }
+  }
+
+  .developed-by p{
+    text-align: center;
+    // margin-bottom: 3%;
+  }
+  .developers{
+    display: flex;
+    width: 100%; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+  .coords1 p,.coords2 p,.core p{
+    padding: 10px;
+    
+  }
+
+ .linkedin-developer{
+  height: 15px;
+ }
+
+ .detailising{
+  display: flex;
+  align-items: center;
+ }
+
+ .coordname{
+  &.mobile{
+    font-size: 10px;
+  }
+ }
+.youtube-video {
+  width: 50%; 
+  max-width: 800px;
+  height: 400px; 
+  justify-content: center;
+  align-items: center;
+// padding-left: 300px;
+padding-bottom: 30px;
+  margin: 0 auto;
+  &.mobile{
+    width: 95%;
+    height: 300px;
+  }
+  &.tab{
+    width: 90%;
+
+  }
+
+}
+
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+ 
+}
+
+
+  
+

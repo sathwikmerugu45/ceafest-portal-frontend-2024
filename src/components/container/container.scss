@@ -1,0 +1,51 @@
+.container{
+    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    overflow-y:auto;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+
+    &.transparent{
+        opacity: 0.8;
+    }
+
+    &.sharp{
+        border-radius: 0;
+    }
+
+    &.leftToRight {
+        background-image: linear-gradient(to right,
+            #225D73,
+            #111012
+        );
+    }
+
+    &.repeat-horizontal{
+        background-image: linear-gradient(to right,
+            #111012,    
+            #225D73,
+            #111012, 
+        );
+    }
+
+    &.topToBottom {
+        background-image: linear-gradient(to bottom,
+            #225D73,
+            #111012
+        );
+    }
+
+    &.bottomToTop{
+        background-image: linear-gradient(to bottom,
+            #111012,
+            #225D73
+        );
+    }
+
+    &.radial {
+        background-image: radial-gradient(circle,
+            #225D73,
+            #111012
+        );
+    }
+}

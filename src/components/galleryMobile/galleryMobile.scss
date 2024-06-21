@@ -1,0 +1,26 @@
+.galleryMobile-container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    &.tab{
+        // margin: 80px 0;
+        padding: 80px 0;
+    }
+    &.mobile{
+        padding: 55px 0;
+    }
+    .swiperSlideimageMobile{
+        margin: 10px;
+        border-radius: 10px;
+        &.tab{
+            width: 70%;
+        }
+        &.mobile{
+            width: 85%;
+        }
+    }
+}
+

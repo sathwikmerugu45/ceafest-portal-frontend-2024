@@ -1,0 +1,101 @@
+@import "../../styles/font.scss";
+.wrapper{
+    top: 50px;
+    justify-content: center;
+    align-self: stretch;
+    padding: 20px 0 ;
+    margin:20px 0 ;
+    display: flex;
+    .CEA-STATS{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        &.mobile{
+            display: grid;
+            grid-template-columns: 10px 10px;
+            grid-template-rows: 100px 100px;
+
+        }
+    }
+    .theme .punarnavan{
+        color: white;
+        letter-spacing:5px ;
+        font-family:  "Revamped";
+        font-size:80px;
+        text-shadow: 3px 3px #79ffe5;
+        &.tab{
+            font-size: 50px;
+        }
+        &.mobile{
+            font-size: 30px;
+        }
+    }
+    .container{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: space-evenly;
+        &.mobile{
+            width: 90vw;
+            flex-wrap: wrap;
+            // grid-row-gap :10 px;
+        }
+        .content1,.content2,.content3,.content4{
+            // width: 35vmin;
+            // height: 35vmin;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            &.mobile{
+                width: calc(20% - 3s0px);
+                height: 15vmin;
+            }
+        .heading{
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 5px;
+            &.mobile{
+                font-size: 13px;
+                letter-spacing: 3px;
+                line-height: 1;
+            }
+        }
+         .num{
+            color: #05fff5;
+            font-size: 55px;
+            line-height: 1.5;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(90deg,#05fff5,#03ffa5);
+            -webkit-background-clip: text;
+            font-weight: 800;
+            &.tab{
+                font-size: 40px;
+            }
+            &.mobile{
+                font-size: 25px;
+            }
+        }
+         .text{
+            color: white;
+            font-size: 16px;
+            letter-spacing: 3px;
+            font-weight: 500;
+            &.tab{
+                font-size: 15px;
+                text-align: center;
+
+            }
+            &.mobile{
+                font-size: 13px;
+                padding: 0 0 0 0;
+                text-align: center;
+            }
+        }
+        }
+}
+}
